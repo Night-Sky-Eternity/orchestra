@@ -1,0 +1,25 @@
+[project]
+name = "orchestra"
+version = "0.1.0"
+description = "Awaitable, CPU-bound multiprocess execution for Python, designed for async applications"
+authors = [
+    { name = "StelarDream", email = "90330577+StelarDream@users.noreply.github.com" }
+]
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+readme = "README.md"
+requires-python = ">=3.13.7"
+
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
