@@ -5,8 +5,6 @@ Orchestra provides an awaitable interface over a multiprocess engine, allowing P
 
 It is designed for projects that rely on asynchronous orchestration but still require real CPU throughput — scientific tools, simulation engines, async servers, large workflows, or any environment where tasks must coexist with a responsive async runtime.
 
----
-
 ## **✨ Features (Planned)**
 
 * **Async-first API**
@@ -27,8 +25,6 @@ It is designed for projects that rely on asynchronous orchestration but still re
 * **Portable**
   A consistent, cross-platform approach to CPU-bound async work.
 
----
-
 ## **Why Orchestra?**
 
 Python’s `asyncio` is excellent for I/O-bound concurrency — but it blocks hard on CPU-heavy functions.
@@ -41,8 +37,6 @@ Existing solutions either:
 Orchestra aims to provide a **simple, ergonomic layer** specifically for async applications that need real CPU parallelism, without forcing users into heavyweight distributed frameworks or fragile multiprocessing code.
 
 If your async code needs to stay responsive *and* compute efficiently, Orchestra fills that gap.
-
----
 
 ## **🧠 Design Philosophy**
 

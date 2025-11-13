@@ -1,0 +1,81 @@
+# ----------------------------
+# Python cache / build stuff
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# Virtual environments (Poetry local venv)
+.venv/
+venv/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Coverage / test reports
+.coverage
+.coverage.*
+htmlcov/
+.coverage.*
+.cache/
+pytest_cache/
+
+# MyPy / type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyright / Pylance
+pyrightconfig.json
+
+# Logs / runtime dumps
+*.log
+*.out
+*.tmp
+
+# Multiprocessing temporary files (platform-dependent)
+mp.*.pid
+multiprocessing.log
+
+# Jupyter (if you ever open notebooks here)
+.ipynb_checkpoints/
+
+# ruff cache
+.ruff_cache
+
+# ----------------------------
+# OS / editor junk
+# ----------------------------
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+
+# Other editors
+*.swp
+*.swo
+
+# ----------------------------
+# Project-specific
+# ----------------------------
+
+# Ignore example outputs / scratch code
+examples/__pycache__/
+scratch/
